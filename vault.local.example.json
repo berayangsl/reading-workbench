@@ -1,0 +1,33 @@
+{
+  "_README": "Copy this file to vault.local.json. The local file is ignored by git. Configure vaultCardsDir for saved cards/notes and aiClis for local model CLIs. Both can be left empty: cards will be written to _vault_out/ and AI can still use BYO-key.",
+
+  "vaultCardsDir": "/absolute/path/to/your/notes-folder",
+
+  "_aiClis_README": "Each preset defines a local CLI. cmd receives the prompt on stdin. Use {out} when the CLI should write the final answer to a temporary file, or {model} when the model name is part of the command. modelArg and effortArg append whitelisted UI selections with {v}. Remove presets you do not use.",
+  "aiClis": [
+    {
+      "id": "codex",
+      "label": "Codex",
+      "cmd": "codex exec --skip-git-repo-check -s read-only --color never -o {out}",
+      "modelArg": "-m {v}",
+      "effortArg": "-c model_reasoning_effort={v}",
+      "models": ["gpt-5.5-codex", "gpt-5.5", "o3", "o4-mini"],
+      "efforts": ["low", "medium", "high", "xhigh"]
+    },
+    {
+      "id": "claude",
+      "label": "Claude Code",
+      "cmd": "claude -p",
+      "modelArg": "--model {v}",
+      "models": ["claude-opus-4-8", "claude-sonnet-4-6", "claude-haiku-4-5"],
+      "efforts": []
+    },
+    {
+      "id": "ollama",
+      "label": "Ollama (本地模型)",
+      "cmd": "ollama run {model}",
+      "models": ["llama3.1", "qwen2.5", "mistral"],
+      "efforts": []
+    }
+  ]
+}

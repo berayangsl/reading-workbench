@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>阅读台 · Reading Workbench</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="rail" id="rail"></aside>
+    <main class="main">
+      <div class="shell">
+        <div id="readhead"></div>
+        <div id="content"></div>
+      </div>
+    </main>
+  </div>
+
+  <div class="scrim" id="scrim"></div>
+  <aside class="reader" id="reader" aria-label="阅读视图"></aside>
+  <div id="modal-root"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

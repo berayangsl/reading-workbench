@@ -1,0 +1,41 @@
+[
+  {
+    "id": "sample-card-1",
+    "entryId": "dwarkesh_dario_amodei_2026_cn",
+    "title": "在指数曲线尽头附近：Dario Amodei 访谈",
+    "source": "Dwarkesh Podcast / Essays",
+    "link": "https://www.dwarkesh.com/p/dario-amodei-2",
+    "topic": "01_AI与技术",
+    "format": "podcast",
+    "summary": "Dario 把能力增长描述为一条仍在加速的指数曲线；讨论了 scaling、安全对齐与商业化节奏之间的张力，以及“接近曲线尽头”时的判断难度。",
+    "mine": "“接近曲线尽头”这个隐喻对我有用——它提醒我别把当下的能力当上限来做产品判断。可以套用到我看任何新模型：先问它的能力边界还在不在动。",
+    "ai": "值得追问：① scaling 放缓的早期信号会从哪里先出现？② 对一个独立开发者，哪些产品假设对“曲线是否到顶”最敏感？",
+    "createdAt": 1718000000000
+  },
+  {
+    "id": "sample-card-2",
+    "entryId": "bill_gates_age_of_ai",
+    "title": "The Age of AI has begun",
+    "source": "Bill Gates Notes",
+    "link": "https://www.gatesnotes.com/The-Age-of-AI-Has-Begun",
+    "topic": "01_AI与技术",
+    "format": "article",
+    "summary": "Gates 把 AI 与图形界面并列为他见过的两次革命性技术突破，重点谈教育与医疗两个最可能被重塑的领域，以及普惠与公平的风险。",
+    "mine": "他用“第二次革命性突破”给 AI 定位，是个很稳的长期锚。我更关心的是：普惠这件事到底靠产品还是靠政策。",
+    "ai": "值得追问：① 教育/医疗的落地瓶颈是模型能力还是制度与信任？② “普惠”在产品层面有哪些可被验证的早期指标？",
+    "createdAt": 1717000000000
+  },
+  {
+    "id": "sample-card-3",
+    "entryId": "from_agi_to_asi",
+    "title": "From AGI to ASI",
+    "source": "arXiv / Google DeepMind",
+    "link": "",
+    "topic": "01_AI与技术",
+    "format": "book",
+    "summary": "梳理从 AGI 走向 ASI 的可能路径、沿途阻力与可监测的中间信号，强调“监测框架”而非单点预测。",
+    "mine": "“先有监测框架、再谈预测”这点我认同——对产品也一样，先定义能观测的中间信号，比押一个终局结论更可执行。",
+    "ai": "值得追问：① 哪些中间信号是“先行指标”而非滞后？② 这套监测框架能否迁移到非 AI 的能力增长判断上？",
+    "createdAt": 1716000000000
+  }
+]

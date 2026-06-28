@@ -1,0 +1,90 @@
+[
+ {
+  "source_id": "web_bill_gates_notes",
+  "source_name": "Bill Gates Notes",
+  "channel_type": "网页 / 官方入口",
+  "content_shape": "长期技术和公共议题文章",
+  "default_reading_layer": "深读候选",
+  "quality_tier": "P1",
+  "main_topics": [
+   "01_AI与技术",
+   "04_公共卫生",
+   "05_教育"
+  ],
+  "capture_method": "手动选择单篇",
+  "update_frequency": "低频",
+  "routing_rule": "用于时间检验型长期判断，不自动全站抓取。"
+ },
+ {
+  "source_id": "source_anthropic",
+  "source_name": "Anthropic News",
+  "channel_type": "官方入口",
+  "content_shape": "模型 / 安全 / 企业应用",
+  "default_reading_layer": "来源池",
+  "quality_tier": "P1",
+  "main_topics": [
+   "01_AI与技术"
+  ],
+  "capture_method": "来源扫描后手动选篇",
+  "update_frequency": "每周扫标题",
+  "routing_rule": "优先看 Claude、agent、安全和 enterprise 文章。"
+ },
+ {
+  "source_id": "source_dwarkesh",
+  "source_name": "Dwarkesh Podcast / Essays",
+  "channel_type": "Newsletter / 播客访谈",
+  "content_shape": "长访谈 / Essay / Transcript",
+  "default_reading_layer": "来源池 / 深读候选",
+  "quality_tier": "P1",
+  "main_topics": [
+   "01_AI与技术",
+   "07_商业与产业"
+  ],
+  "capture_method": "手动选择有 transcript 的公开内容",
+  "update_frequency": "低频",
+  "routing_rule": "一手经验、高质量 mental model、AI 对经济科学组织影响优先。"
+ },
+ {
+  "source_id": "source_a16z_ai",
+  "source_name": "a16z AI",
+  "channel_type": "产品/产业观察",
+  "content_shape": "AI 创业 / 市场 / 产品机会",
+  "default_reading_layer": "来源池",
+  "quality_tier": "P1",
+  "main_topics": [
+   "01_AI与技术",
+   "07_商业与产业"
+  ],
+  "capture_method": "来源扫描后手动选篇",
+  "update_frequency": "低频",
+  "routing_rule": "产品机会和市场地图优先；不自动搬运。"
+ },
+ {
+  "source_id": "pdf_life_3_0",
+  "source_name": "Life 3.0 PDF",
+  "channel_type": "PDF 书籍",
+  "content_shape": "书籍分节",
+  "default_reading_layer": "深读候选",
+  "quality_tier": "P0",
+  "main_topics": [
+   "01_AI与技术"
+  ],
+  "capture_method": "本地 PDF 小节抽取",
+  "update_frequency": "按阅读计划",
+  "routing_rule": "先抽目录、前言、第一章小段，不全书摘要。"
+ },
+ {
+  "source_id": "paper_arxiv",
+  "source_name": "arXiv / 论文 PDF",
+  "channel_type": "PDF / 论文",
+  "content_shape": "论文",
+  "default_reading_layer": "深读候选",
+  "quality_tier": "P0/P1",
+  "main_topics": [
+   "01_AI与技术"
+  ],
+  "capture_method": "本地 PDF / 手动链接",
+  "update_frequency": "按篇",
+  "routing_rule": "影响 AI 本质/长期判断时进入 deep_read。"
+ }
+]

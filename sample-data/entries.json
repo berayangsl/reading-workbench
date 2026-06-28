@@ -1,0 +1,212 @@
+[
+ {
+  "id": "book_life_3_0",
+  "title": "Life 3.0：目录 / 前言 / 第一章小段",
+  "source_name": "Bill Gates AI 延伸书单",
+  "source_id": "pdf_life_3_0",
+  "source_channel_type": "PDF 书籍",
+  "main_topic": "01_AI与技术",
+  "content_category": "书籍/论文",
+  "reading_layer": "深读候选",
+  "summary": "三本 AI 书首个样本，用于验证长书如何低压力进入阅读工作台。",
+  "why": "不是全书摘要，而是先定目录、前言和第一章小段的最小阅读范围。",
+  "next_action": "打开 PDF，确认先读哪一小块。",
+  "author_or_guest": "Max Tegmark",
+  "published_date": "",
+  "publication_date_bucket": "发布日未知",
+  "publication_date_label": "发布日未知",
+  "today_suggested": true,
+  "tags": [
+   "AI 本质",
+   "书籍",
+   "长期未来"
+  ],
+  "canonical_url": "https://www.gatesnotes.com/Books",
+  "primary_button_url": "https://www.gatesnotes.com/Books",
+  "primary_button_label": "打开来源",
+  "filter_topics": [
+   "01_AI与技术"
+  ]
+ },
+ {
+  "id": "dwarkesh_dario_amodei_2026_cn",
+  "title": "在指数曲线尽头附近：Dario Amodei 两小时访谈中文结构化阅读稿",
+  "source_name": "Dwarkesh Podcast / Essays",
+  "source_id": "source_dwarkesh",
+  "source_channel_type": "Newsletter / 播客访谈",
+  "main_topic": "01_AI与技术",
+  "content_category": "深度访谈",
+  "reading_layer": "深读重点",
+  "summary": "基于 Dwarkesh 2026-02-13 对 Dario Amodei 的 2h 访谈 transcript 做的详尽中文结构化转述，覆盖 scaling/RL、diffusion、continual learning、compute、AI lab economics、Claude Code、API/定价、监管、医疗审批、中美竞争、model constitution 和 Anthropic 组织文化，并保留关键例子。",
+  "next_action": "先读详尽中文结构化稿；需要核验措辞或补逐字上下文时打开 Dwarkesh transcript 原文。",
+  "author_or_guest": "Dario Amodei / Dwarkesh Patel",
+  "published_date": "2026-02-13",
+  "publication_date_bucket": "2026-02-13",
+  "publication_date_label": "发布日 2026-02-13",
+  "today_suggested": true,
+  "tags": [
+   "Dario Amodei",
+   "Anthropic",
+   "前沿模型",
+   "Scaling",
+   "RL",
+   "AI扩散",
+   "Claude Code",
+   "AI治理",
+   "一手访谈"
+  ],
+  "canonical_url": "https://www.dwarkesh.com/p/dario-amodei-2",
+  "primary_button_url": "articles/manual/dario_amodei_dwarkesh_2026_cn.html",
+  "primary_button_label": "打开本地阅读页",
+  "filter_topics": [
+   "01_AI与技术",
+   "07_商业与产业",
+   "06_社会观察"
+  ]
+ },
+ {
+  "id": "bill_gates_age_of_ai",
+  "title": "The Age of AI has begun",
+  "source_name": "Bill Gates Notes",
+  "source_id": "web_bill_gates_notes",
+  "source_channel_type": "网页 / 官方入口",
+  "main_topic": "01_AI与技术",
+  "content_category": "深度分析",
+  "reading_layer": "深读候选",
+  "summary": "Bill Gates 从长期技术影响角度讨论 AI 的突破、教育和医疗影响，适合作为时间检验型 AI 判断样本。",
+  "why": "补非技术作者对 AI 时代的长期判断。",
+  "next_action": "轻量复核已有本地笔记；不抢 Superlinear 的第一深读位置。",
+  "published_date": "2023-03-21",
+  "publication_date_bucket": "2023-03-21",
+  "publication_date_label": "发布日 2023-03-21",
+  "today_suggested": true,
+  "tags": [
+   "AI 范式变化",
+   "长期判断",
+   "Bill Gates"
+  ],
+  "canonical_url": "https://www.gatesnotes.com/the-age-of-ai-has-begun",
+  "primary_button_url": "articles/bill_gates_age_of_ai.html",
+  "primary_button_label": "打开本地阅读页",
+  "filter_topics": [
+   "01_AI与技术",
+   "05_教育",
+   "04_公共卫生"
+  ]
+ },
+ {
+  "id": "source_scan_2026-06-22_source_anthropic_ddffc576a815",
+  "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+  "source_name": "Anthropic News",
+  "source_id": "source_anthropic",
+  "source_channel_type": "官方入口",
+  "main_topic": "01_AI与技术",
+  "content_category": "快讯速扫",
+  "reading_layer": "快讯速扫",
+  "summary": "Anthropic 官方新闻：宣布开设首尔办公室，扩展在韩国与亚太地区的业务。",
+  "next_action": "先打开来源核验；有长期价值再升级为阅读反应、观点档案或 deep_read。",
+  "author_or_guest": "Anthropic News",
+  "published_date": "2026-06-17",
+  "publication_date_bucket": "2026-06-17",
+  "publication_date_label": "发布日 2026-06-17",
+  "today_suggested": true,
+  "tags": [
+   "来源扫描",
+   "non_wechat",
+   "html_scanned"
+  ],
+  "canonical_url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+  "primary_button_url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+  "primary_button_label": "打开来源",
+  "filter_topics": [
+   "01_AI与技术"
+  ]
+ },
+ {
+  "id": "paper_from_agi_to_asi",
+  "title": "From AGI to ASI",
+  "source_name": "arXiv / Google DeepMind",
+  "source_id": "paper_arxiv",
+  "source_channel_type": "PDF / 论文",
+  "main_topic": "01_AI与技术",
+  "content_category": "书籍/论文",
+  "reading_layer": "深读重点",
+  "summary": "AGI 到 ASI 的路径、阻力和监测框架，和 Superlinear / Agent 八篇互补。",
+  "why": "已完成 deep_read，是 AI 未来路径判断的重要专家上下文。",
+  "next_action": "需要讨论 AGI/ASI 路径时调用专家上下文。",
+  "published_date": "",
+  "publication_date_bucket": "发布日未知",
+  "publication_date_label": "发布日未知",
+  "today_suggested": false,
+  "tags": [
+   "AGI",
+   "ASI",
+   "长期未来",
+   "论文"
+  ],
+  "canonical_url": "https://arxiv.org/abs/2606.12683",
+  "primary_button_url": "https://arxiv.org/abs/2606.12683",
+  "primary_button_label": "打开来源",
+  "filter_topics": [
+   "01_AI与技术"
+  ]
+ },
+ {
+  "id": "source_scan_2026-06-22_source_a16z_ai_8dce3182a6f3",
+  "title": "New Media, One Year In",
+  "source_name": "a16z AI",
+  "source_id": "source_a16z_ai",
+  "source_channel_type": "产品/产业观察",
+  "main_topic": "01_AI与技术",
+  "content_category": "来源池",
+  "reading_layer": "来源池",
+  "summary": "a16z 关于新媒体生态一年观察的产业文章。",
+  "next_action": "先打开来源核验；有长期价值再升级为阅读反应、观点档案或 deep_read。",
+  "author_or_guest": "a16z AI",
+  "published_date": "",
+  "publication_date_bucket": "发布日未知",
+  "publication_date_label": "发布日未知",
+  "today_suggested": false,
+  "tags": [
+   "来源扫描",
+   "non_wechat",
+   "html_entry_scanned"
+  ],
+  "canonical_url": "https://a16z.com/what-is-new-media-in-2026/",
+  "primary_button_url": "https://a16z.com/what-is-new-media-in-2026/",
+  "primary_button_label": "打开来源",
+  "filter_topics": [
+   "01_AI与技术",
+   "07_商业与产业"
+  ]
+ },
+ {
+  "id": "source_scan_2026-06-22_source_a16z_ai_f2e3d9440bf5",
+  "title": "Investing in Telepatia",
+  "source_name": "a16z AI",
+  "source_id": "source_a16z_ai",
+  "source_channel_type": "产品/产业观察",
+  "main_topic": "01_AI与技术",
+  "content_category": "来源池",
+  "reading_layer": "来源池",
+  "summary": "a16z 公布对 Telepatia 的投资及其赛道判断。",
+  "next_action": "先打开来源核验；有长期价值再升级为阅读反应、观点档案或 deep_read。",
+  "author_or_guest": "a16z AI",
+  "published_date": "",
+  "publication_date_bucket": "发布日未知",
+  "publication_date_label": "发布日未知",
+  "today_suggested": false,
+  "tags": [
+   "来源扫描",
+   "non_wechat",
+   "html_entry_scanned"
+  ],
+  "canonical_url": "https://a16z.com/announcement/investing-in-telepatia/",
+  "primary_button_url": "https://a16z.com/announcement/investing-in-telepatia/",
+  "primary_button_label": "打开来源",
+  "filter_topics": [
+   "01_AI与技术",
+   "07_商业与产业"
+  ]
+ }
+]

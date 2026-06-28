@@ -1,0 +1,19 @@
+# Local-only files
+vault.local.json
+_vault_out/
+.claude/
+
+# Local content snapshots
+data/
+articles/
+assets/
+manual_articles/
+manual_entries.json
+
+# Local ingestion scripts
+scripts/
+recent-capture/
+
+# Misc
+.DS_Store
+node_modules/
